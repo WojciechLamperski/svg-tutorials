@@ -7,35 +7,41 @@
        <stop offset="2%"  stop-color="#838383" />
        <stop offset="98%" stop-color="black" />
      </linearGradient>
+     <linearGradient id="noseLinearGradient" gradientTransform="rotate(90)">
+       <stop offset="2%"  stop-color="#9b3333" />
+       <stop offset="98%" stop-color="#a00202" />
+     </linearGradient>
      <radialGradient id="emojiRadialGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
        <stop offset="0%" style="stop-color:#c2c2c2;" />
        <stop offset="100%" style="stop-color:#a1a1a1;" />
      </radialGradient>   
 </defs>
 
-
+<!-- ears -->
 <polygon points="40,32 25,28, 20,40" fill="#a1a1a1" /> 
+<polygon points="60,32 75,28, 80,40" fill="#a1a1a1" />
 
+<!-- inner ear-->>
 <polygon points="40,33.5 26,30, 20,43.5" fill="#4e4e4e" /> 
- 
-<polygon points="60,32 75,28, 80,40" fill="#a1a1a1" />  
-
 <polygon points="60,33.5 74,30, 79.9,43.5" fill="#4e4e4e" />
 
+<!-- head -->
 <ellipse cx="50" cy="50" r="70" rx="35" ry="20" fill="url('#emojiRadialGradient')" /> 
 
-
+<!-- mouth -->
 <line x1="50" x2="50" y1="52" y2="56.1" stroke="#2c2c2c" stroke-width="0.7" />
 <path d="M50,56 A1,1 0 1,0 55,56" stroke="#2c2c2c" stroke-width="0.7" fill="none" />
 <path d="M50,56 A1,1 0 1,1 45,56" stroke="#2c2c2c" stroke-width="0.7" fill="none" />
-<polygon points="53,50 50,53, 47,50" fill="#a00202" stroke="#2c2c2c" stroke-width="0.7" /> 
 
+<!-- nose -->
+<polygon points="53,50 50,53, 47,50" fill="url('#noseLinearGradient')" stroke="#2c2c2c" stroke-width="0.7" /> 
 
+<!-- whiskers right side -->
 <line x1="59" x2="65" y1="52.5" y2="50" stroke="#2c2c2c" stroke-width="0.3" />
 <line x1="60.5" x2="66" y1="53" y2="53" stroke="#2c2c2c" stroke-width="0.3" />
 <line x1="59" x2="65" y1="53.5" y2="55" stroke="#2c2c2c" stroke-width="0.3" />
 
-
+<!-- whiskers left side -->
 <line x1="41" x2="35" y1="52.5" y2="50" stroke="#2c2c2c" stroke-width="0.3" />
 <line x1="39.5" x2="34" y1="53" y2="53" stroke="#2c2c2c" stroke-width="0.3" />
 <line x1="41" x2="35" y1="53.5" y2="55" stroke="#2c2c2c" stroke-width="0.3" />
