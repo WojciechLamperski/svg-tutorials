@@ -6,18 +6,39 @@
    <circle cx="100" cy="100" r="50" stroke="black" stroke-width="2" fill="yellow" />
    <circle cx="80" cy="95" r="13" stroke="black" stroke-width="2" fill="white" />
    <circle cx="80" cy="95" r="5" stroke="black" stroke-width="2" fill="black"> 
+    
+    <!--left to right-->
     <animate id="one" attributeName="cx" attributeType="XML"
     from="80" to="85"
-    begin="0s; four.end" dur="2s" />
+    begin="0s; two.end" dur="2s" />
     <animate id="two"  attributeName="cx" attributeType="XML"
     from="85" to="80"
-    begin="one.end" dur=" 2s"/>
-    <animate id="three"  attributeName="cy" attributeType="XML"
+    begin="three.end" dur=" 2s"/> 
+
+    <!--top to bottom-->
+    <animate id="three" attributeName="cy" attributeType="XML"
     from="95" to="90"
-    begin="one.end" dur=" 2s"/>
-    <animate id="four"  attributeName="cy" attributeType="XML"
+    begin="0s; two.end" dur="2s" />
+    <!-- <animate id="four" attributeName="cy" attributeType="XML"
     from="90" to="95"
-    begin="two.end" dur=" 2s"/>
+    begin="0s; two.end" dur="2s" />  -->
+
+    <!--right to left-->
+    <!-- <animate id="five"  attributeName="cx" attributeType="XML"
+    from="85" to="80"
+    begin="three.end" dur=" 2s"/>
+    <animate id="six"  attributeName="cy" attributeType="XML"
+    from="90" to="95"
+    begin="one.end" dur=" 2s"/> -->
+
+    <!--bottom to top-->
+    <!-- <animate id="seven" attributeName="cy" attributeType="XML"
+    from="95" to="90"
+    begin="0s; four.end" dur="2s" />
+    <animate id="eight" attributeName="cx" attributeType="XML"
+    from="80" to="85"
+    begin="0s; two.end" dur="2s" /> -->
+    
    </circle>
    <circle cx="120" cy="95" r="13" stroke="black" stroke-width="2" fill="white" />
    <circle cx="120" cy="90" r="5" stroke="black" stroke-width="2" fill="black"> 
